@@ -1,0 +1,213 @@
+DEBUG 2021-09-22 23:11:13,030 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2021-09-22 23:11:13,524 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2021-09-22 23:11:13,631 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: CMS.Web.Host.Startup.CMSWebHostModule, CMS.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-22 23:11:13,641 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: CMS.CMSWebCoreModule, CMS.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-22 23:11:13,644 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: CMS.CMSApplicationModule, CMS.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-22 23:11:13,645 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: CMS.CMSCoreModule, CMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-22 23:11:13,647 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-22 23:11:13,648 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-22 23:11:13,649 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-22 23:11:13,650 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-22 23:11:13,652 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: CMS.EntityFrameworkCore.CMSEntityFrameworkModule, CMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-22 23:11:13,654 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-22 23:11:13,654 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-22 23:11:13,656 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-22 23:11:13,657 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-22 23:11:13,658 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-22 23:11:13,661 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=5.13.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-22 23:11:13,676 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2021-09-22 23:11:14,144 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-09-22 23:11:14,145 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-09-22 23:11:14,145 [1    ] o.Configuration.LanguageManagementConfig - Converted CMS (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-09-22 23:11:14,145 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2021-09-22 23:11:16,040 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: CMS.EntityFrameworkCore.CMSDbContext, CMS.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2021-09-22 23:11:21,383 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2021-09-22 23:11:21,578 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2021-09-22 23:11:21,688 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2021-09-22 23:11:21,716 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: CMS
+DEBUG 2021-09-22 23:11:21,737 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2021-09-22 23:11:23,023 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Castle.Proxies.BackgroundJobManagerProxy
+DEBUG 2021-09-22 23:11:24,214 [1    ] , Culture=neutral, PublicKeyToken=null]] - Start background worker: Abp.Authorization.Users.UserTokenExpirationWorker`2[[CMS.MultiTenancy.Tenant, CMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[CMS.Authorization.Users.User, CMS.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+DEBUG 2021-09-22 23:11:24,477 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2021-09-22 23:11:24,477 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - CMS.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2021-09-22 23:11:24,499 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - CMS.Users.Dto.CreateUserDto
+DEBUG 2021-09-22 23:11:24,501 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - CMS.Users.Dto.UserDto
+DEBUG 2021-09-22 23:11:24,503 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - CMS.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2021-09-22 23:11:24,504 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - CMS.Sessions.Dto.UserLoginInfoDto
+DEBUG 2021-09-22 23:11:24,509 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - CMS.Roles.Dto.PermissionDto
+DEBUG 2021-09-22 23:11:24,510 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - CMS.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2021-09-22 23:11:24,512 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - CMS.MultiTenancy.Dto.TenantDto
+INFO  2021-09-22 23:11:43,323 [1    ] tCore.Builder.RequestLocalizationOptions - Supported Request Localization Cultures: en,es-MX,fr,de,it,nl,pt-BR,tr,ru,ar,ja,zh-Hans
+INFO  2021-09-22 23:11:46,031 [1    ] taProtection.KeyManagement.XmlKeyManager - User profile is available. Using 'C:\Users\ehab\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+INFO  2021-09-22 23:11:46,480 [1    ] taProtection.KeyManagement.XmlKeyManager - Creating key {abfb617e-9b84-4938-9b12-3834e3bb1b23} with creation date 2021-09-22 21:11:46Z, activation date 2021-09-22 21:11:46Z, and expiration date 2021-12-21 21:11:46Z.
+INFO  2021-09-22 23:11:46,576 [1    ] ion.Repositories.FileSystemXmlRepository - Writing data to file 'C:\Users\ehab\AppData\Local\ASP.NET\DataProtection-Keys\key-abfb617e-9b84-4938-9b12-3834e3bb1b23.xml'.
+INFO  2021-09-22 23:11:47,017 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/  
+INFO  2021-09-22 23:11:47,719 [11   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'CMS.Web.Host.Controllers.HomeController.Index (CMS.Web.Host)'
+INFO  2021-09-22 23:12:05,530 [11   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Index", controller = "Home", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CMS.Web.Host.Controllers.HomeController (CMS.Web.Host).
+INFO  2021-09-22 23:12:12,043 [6    ] vc.Infrastructure.RedirectResultExecutor - Executing RedirectResult, redirecting to /swagger.
+INFO  2021-09-22 23:12:12,093 [6    ] c.Infrastructure.ControllerActionInvoker - Executed action CMS.Web.Host.Controllers.HomeController.Index (CMS.Web.Host) in 6527.0874ms
+INFO  2021-09-22 23:12:12,133 [6    ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'CMS.Web.Host.Controllers.HomeController.Index (CMS.Web.Host)'
+INFO  2021-09-22 23:12:12,238 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger  
+INFO  2021-09-22 23:12:12,256 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 25237.783ms 302 
+INFO  2021-09-22 23:12:12,451 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 211.6984ms 301 
+INFO  2021-09-22 23:12:12,462 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2021-09-22 23:12:12,722 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 254.489ms 200 text/html;charset=utf-8
+INFO  2021-09-22 23:12:12,908 [11   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui.css  
+INFO  2021-09-22 23:12:12,913 [10   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-bundle.js  
+INFO  2021-09-22 23:12:12,923 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.js  
+INFO  2021-09-22 23:12:12,936 [8    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/swagger-ui-standalone-preset.js  
+INFO  2021-09-22 23:12:12,941 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/ui/abp.swagger.js  
+INFO  2021-09-22 23:12:13,113 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.swagger.js'. Physical path: 'E:\Projects\Projects Production\Compund Project\CMS\5.8.1\aspnet-core\src\CMS.Web.Host\wwwroot\swagger\ui\abp.swagger.js'
+INFO  2021-09-22 23:12:13,121 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger/ui/abp.js'. Physical path: 'E:\Projects\Projects Production\Compund Project\CMS\5.8.1\aspnet-core\src\CMS.Web.Host\wwwroot\swagger\ui\abp.js'
+INFO  2021-09-22 23:12:13,129 [6    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 186.0252ms 200 application/javascript
+INFO  2021-09-22 23:12:13,134 [4    ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 230.8163ms 200 application/javascript
+INFO  2021-09-22 23:12:13,175 [26   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+INFO  2021-09-22 23:12:13,211 [6    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+INFO  2021-09-22 23:12:13,277 [33   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 390.1696ms 200 text/css
+INFO  2021-09-22 23:12:13,291 [32   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 363.9678ms 200 application/javascript
+INFO  2021-09-22 23:12:13,307 [35   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+INFO  2021-09-22 23:12:13,316 [35   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 415.1994ms 200 application/javascript
+INFO  2021-09-22 23:12:14,005 [32   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2021-09-22 23:12:14,024 [32   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'CMS.Web.Host.Controllers.AntiForgeryController.SetCookie (CMS.Web.Host)'
+INFO  2021-09-22 23:12:14,063 [32   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller CMS.Web.Host.Controllers.AntiForgeryController (CMS.Web.Host).
+INFO  2021-09-22 23:12:14,155 [31   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2021-09-22 23:12:14,169 [35   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2021-09-22 23:12:14,270 [34   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/favicon-32x32.png  
+INFO  2021-09-22 23:12:14,290 [34   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+INFO  2021-09-22 23:12:14,301 [34   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 35.8542ms 200 image/png
+INFO  2021-09-22 23:12:14,656 [31   ] c.Infrastructure.ControllerActionInvoker - Executed action CMS.Web.Host.Controllers.AntiForgeryController.SetCookie (CMS.Web.Host) in 585.8912ms
+INFO  2021-09-22 23:12:14,665 [31   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'CMS.Web.Host.Controllers.AntiForgeryController.SetCookie (CMS.Web.Host)'
+INFO  2021-09-22 23:12:14,672 [31   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 674.3431ms 200 application/json; charset=utf-8
+INFO  2021-09-22 23:12:14,746 [35   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 577.9495ms 200 application/json;charset=utf-8
+INFO  2021-09-22 23:13:09,672 [35   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/User/GetAll  
+INFO  2021-09-22 23:13:09,712 [35   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'CMS.Users.UserAppService.GetAllAsync (CMS.Application)'
+INFO  2021-09-22 23:13:09,894 [35   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Abp.Application.Services.Dto.PagedResultDto`1[CMS.Users.Dto.UserDto]] GetAllAsync(CMS.Users.Dto.PagedUserResultRequestDto) on controller CMS.Users.UserAppService (CMS.Application).
+WARN  2021-09-22 23:13:15,149 [29   ] Mvc.ExceptionHandling.AbpExceptionFilter - Current user did not login to the application!
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(IEnumerable`1 authorizeAttributes)
+   at Abp.Authorization.AuthorizationHelper.CheckPermissionsAsync(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationHelper.AuthorizeAsync(MethodInfo methodInfo, Type type)
+   at Abp.Authorization.AuthorizationInterceptor.InternalInterceptAsynchronous[TResult](IInvocation invocation)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InternalInterceptAsynchronous[TResult](IInvocation invocation)
+   at Abp.Auditing.AuditingInterceptor.InternalInterceptAsynchronous[TResult](IInvocation invocation)
+   at Abp.Runtime.Validation.Interception.ValidationInterceptor.InternalInterceptAsynchronous[TResult](IInvocation invocation)
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+INFO  2021-09-22 23:13:15,187 [29   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2021-09-22 23:13:15,215 [29   ] c.Infrastructure.ControllerActionInvoker - Executed action CMS.Users.UserAppService.GetAllAsync (CMS.Application) in 5313.4169ms
+INFO  2021-09-22 23:13:15,228 [29   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'CMS.Users.UserAppService.GetAllAsync (CMS.Application)'
+INFO  2021-09-22 23:13:15,240 [29   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 5578.0997ms 401 application/json; charset=utf-8
+INFO  2021-09-22 23:14:25,796 [37   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 POST http://localhost:21021/api/TokenAuth/Authenticate application/json 54
+INFO  2021-09-22 23:14:25,824 [37   ] pNetCore.Cors.Infrastructure.CorsService - CORS policy execution failed.
+INFO  2021-09-22 23:14:25,832 [37   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:21021 does not have permission to access the resource.
+INFO  2021-09-22 23:14:25,865 [37   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'CMS.Controllers.TokenAuthController.Authenticate (CMS.Web.Core)'
+INFO  2021-09-22 23:14:25,906 [37   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "Authenticate", controller = "TokenAuth", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[CMS.Models.TokenAuth.AuthenticateResultModel] Authenticate(CMS.Models.TokenAuth.AuthenticateModel) on controller CMS.Controllers.TokenAuthController (CMS.Web.Core).
+INFO  2021-09-22 23:14:28,003 [36   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2021-09-22 23:14:28,027 [36   ] c.Infrastructure.ControllerActionInvoker - Executed action CMS.Controllers.TokenAuthController.Authenticate (CMS.Web.Core) in 2109.6547ms
+INFO  2021-09-22 23:14:28,036 [36   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'CMS.Controllers.TokenAuthController.Authenticate (CMS.Web.Core)'
+INFO  2021-09-22 23:14:28,063 [36   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 2254.7587ms 200 application/json; charset=utf-8
+INFO  2021-09-22 23:14:28,086 [38   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/index.html  
+INFO  2021-09-22 23:14:28,109 [38   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 23.5779ms 200 text/html;charset=utf-8
+INFO  2021-09-22 23:14:29,524 [36   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/AntiForgery/SetCookie  
+INFO  2021-09-22 23:14:29,700 [30   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/v1/swagger.json  
+INFO  2021-09-22 23:14:29,761 [38   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/swagger/favicon-32x32.png  
+INFO  2021-09-22 23:14:29,792 [38   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+INFO  2021-09-22 23:14:29,800 [38   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 68.1274ms 200 image/png
+INFO  2021-09-22 23:14:29,810 [30   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2021-09-22 23:14:29,818 [36   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2021-09-22 23:14:30,153 [41   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'CMS.Web.Host.Controllers.AntiForgeryController.SetCookie (CMS.Web.Host)'
+INFO  2021-09-22 23:14:30,211 [41   ] c.Infrastructure.ControllerActionInvoker - Route matched with {action = "SetCookie", controller = "AntiForgery", area = ""}. Executing controller action with signature Void SetCookie() on controller CMS.Web.Host.Controllers.AntiForgeryController (CMS.Web.Host).
+INFO  2021-09-22 23:14:30,275 [38   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 584.2672ms 200 application/json;charset=utf-8
+INFO  2021-09-22 23:14:30,299 [40   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2021-09-22 23:14:30,353 [40   ] c.Infrastructure.ControllerActionInvoker - Executed action CMS.Web.Host.Controllers.AntiForgeryController.SetCookie (CMS.Web.Host) in 96.2256ms
+INFO  2021-09-22 23:14:30,369 [40   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'CMS.Web.Host.Controllers.AntiForgeryController.SetCookie (CMS.Web.Host)'
+INFO  2021-09-22 23:14:30,396 [40   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 855.8929ms 200 application/json; charset=utf-8
+INFO  2021-09-22 23:14:45,618 [41   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/User/GetAll  
+INFO  2021-09-22 23:14:45,665 [41   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2021-09-22 23:14:45,714 [30   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'CMS.Users.UserAppService.GetAllAsync (CMS.Application)'
+INFO  2021-09-22 23:14:45,743 [30   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "GetAll", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Abp.Application.Services.Dto.PagedResultDto`1[CMS.Users.Dto.UserDto]] GetAllAsync(CMS.Users.Dto.PagedUserResultRequestDto) on controller CMS.Users.UserAppService (CMS.Application).
+ERROR 2021-09-22 23:14:46,854 [41   ] Mvc.ExceptionHandling.AbpExceptionFilter - Incorrect syntax near 'OFFSET'.
+Invalid usage of the option NEXT in the FETCH statement.
+Incorrect syntax near the keyword 'AS'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Incorrect syntax near 'OFFSET'.
+Invalid usage of the option NEXT in the FETCH statement.
+Incorrect syntax near the keyword 'AS'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(DbContext _, Boolean result, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions.ToListAsync[TSource](IQueryable`1 source, CancellationToken cancellationToken)
+   at Abp.Application.Services.AsyncCrudAppService`8.GetAllAsync(TGetAllInput input)
+   at Abp.Authorization.AuthorizationInterceptor.InternalInterceptAsynchronous[TResult](IInvocation invocation)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InternalInterceptAsynchronous[TResult](IInvocation invocation)
+   at Abp.Auditing.AuditingInterceptor.InternalInterceptAsynchronous[TResult](IInvocation invocation)
+   at Abp.Runtime.Validation.Interception.ValidationInterceptor.InternalInterceptAsynchronous[TResult](IInvocation invocation)
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+ClientConnectionId:313858ed-e856-4206-928f-16fa79bd91d2
+Error Number:102,State:1,Class:15
+INFO  2021-09-22 23:14:46,891 [41   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2021-09-22 23:14:46,902 [41   ] c.Infrastructure.ControllerActionInvoker - Executed action CMS.Users.UserAppService.GetAllAsync (CMS.Application) in 1150.658ms
+INFO  2021-09-22 23:14:46,917 [41   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'CMS.Users.UserAppService.GetAllAsync (CMS.Application)'
+INFO  2021-09-22 23:14:46,929 [41   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1310.1545ms 500 application/json; charset=utf-8
+INFO  2021-09-22 23:15:08,146 [41   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/User/Get  
+INFO  2021-09-22 23:15:08,162 [41   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2021-09-22 23:15:08,342 [47   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'CMS.Users.UserAppService.GetAsync (CMS.Application)'
+INFO  2021-09-22 23:15:08,438 [47   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "Get", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[CMS.Users.Dto.UserDto] GetAsync(Abp.Application.Services.Dto.EntityDto`1[System.Int64]) on controller CMS.Users.UserAppService (CMS.Application).
+ERROR 2021-09-22 23:15:09,321 [45   ] Mvc.ExceptionHandling.AbpExceptionFilter - There is no such an entity. Entity type: CMS.Authorization.Users.User, id: 0
+Abp.Domain.Entities.EntityNotFoundException: There is no such an entity. Entity type: CMS.Authorization.Users.User, id: 0
+   at CMS.Users.UserAppService.GetEntityByIdAsync(Int64 id) in E:\Projects\Projects Production\Compund Project\CMS\5.8.1\aspnet-core\src\CMS.Application\Users\UserAppService.cs:line 158
+   at Abp.Authorization.AuthorizationInterceptor.InternalInterceptAsynchronous[TResult](IInvocation invocation)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InternalInterceptAsynchronous[TResult](IInvocation invocation)
+   at Abp.Auditing.AuditingInterceptor.InternalInterceptAsynchronous[TResult](IInvocation invocation)
+   at Abp.Runtime.Validation.Interception.ValidationInterceptor.InternalInterceptAsynchronous[TResult](IInvocation invocation)
+   at Abp.Application.Services.AsyncCrudAppService`8.GetAsync(TGetInput input)
+   at Abp.Authorization.AuthorizationInterceptor.InternalInterceptAsynchronous[TResult](IInvocation invocation)
+   at Abp.Domain.Uow.UnitOfWorkInterceptor.InternalInterceptAsynchronous[TResult](IInvocation invocation)
+   at Abp.Auditing.AuditingInterceptor.InternalInterceptAsynchronous[TResult](IInvocation invocation)
+   at Abp.Runtime.Validation.Interception.ValidationInterceptor.InternalInterceptAsynchronous[TResult](IInvocation invocation)
+   at lambda_method(Closure , Object )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutorAwaitable.Awaiter.GetResult()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextExceptionFilterAsync>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+INFO  2021-09-22 23:15:09,340 [45   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2021-09-22 23:15:09,360 [45   ] c.Infrastructure.ControllerActionInvoker - Executed action CMS.Users.UserAppService.GetAsync (CMS.Application) in 910.2115ms
+INFO  2021-09-22 23:15:09,407 [45   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'CMS.Users.UserAppService.GetAsync (CMS.Application)'
+INFO  2021-09-22 23:15:09,446 [45   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 1270.2657ms 404 application/json; charset=utf-8
+INFO  2021-09-22 23:16:39,177 [49   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request starting HTTP/1.1 GET http://localhost:21021/api/services/app/User/Get?Id=1  
+INFO  2021-09-22 23:16:39,204 [49   ] uthentication.JwtBearer.JwtBearerHandler - Successfully validated the token.
+INFO  2021-09-22 23:16:39,291 [51   ] ft.AspNetCore.Routing.EndpointMiddleware - Executing endpoint 'CMS.Users.UserAppService.GetAsync (CMS.Application)'
+INFO  2021-09-22 23:16:39,326 [51   ] c.Infrastructure.ControllerActionInvoker - Route matched with {area = "app", action = "Get", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[CMS.Users.Dto.UserDto] GetAsync(Abp.Application.Services.Dto.EntityDto`1[System.Int64]) on controller CMS.Users.UserAppService (CMS.Application).
+INFO  2021-09-22 23:16:39,728 [51   ] .Mvc.Infrastructure.ObjectResultExecutor - Executing ObjectResult, writing value of type 'Abp.Web.Models.AjaxResponse'.
+INFO  2021-09-22 23:16:39,797 [51   ] c.Infrastructure.ControllerActionInvoker - Executed action CMS.Users.UserAppService.GetAsync (CMS.Application) in 460.277ms
+INFO  2021-09-22 23:16:39,808 [51   ] ft.AspNetCore.Routing.EndpointMiddleware - Executed endpoint 'CMS.Users.UserAppService.GetAsync (CMS.Application)'
+INFO  2021-09-22 23:16:39,819 [51   ] Microsoft.AspNetCore.Hosting.Diagnostics - Request finished in 640.3843ms 200 application/json; charset=utf-8
